@@ -9,5 +9,5 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('!Server'):
-        await message.channel.send(f'{message.author.mention} crazywolves.aternos.me')  
+        await message.channel.send(f'{message.author.mention} milkiway.aternos.me:58562')  
 client.run(TOKEN, bot=True)
