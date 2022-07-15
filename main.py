@@ -28,3 +28,4 @@ async def on_member_join(member):
     role = member.guild.get_role(role_id=989847812755820558)
     await member.add_roles(role)
 client.run(TOKEN, bot=True)
+bot.run(TOKEN)
