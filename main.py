@@ -1,6 +1,6 @@
 from discord.ext import commands
 import discord
-TOKEN = 'OTg5MTg1NzU1Njg1NDU4MDIw.G7xUAU.EoxWxVvw7mYT6GA43fdzEee7EnQxAYLi4CQykk'
+TOKEN = 'OTg5MTg1NzU1Njg1NDU4MDIw.G_VVxw.GYqbQfrwZKsEwO-TnbqAD5a4r8jSX4gNucPS6U'
 bot = commands.Bot(command_prefix='', intents=discord.Intents.all())
 client = discord.Client()
 @client.event
