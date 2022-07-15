@@ -14,7 +14,7 @@ async def on_ready():
     print("Bot started")
 @bot.event
 async def on_member_join(member):
-    role = member.guild.get_role(role_id=950107065878188072)
+    role = member.guild.get_role(role_id=989847812755820558
     await member.add_roles(role)
 bot.run(token)
 client.run(token, bot=True)
