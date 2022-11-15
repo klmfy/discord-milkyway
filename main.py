@@ -1,7 +1,7 @@
 from discord.ext import commands
 import discord
 TOKEN = 'MTA0MTk4NTM5Mjk3MjQxNTAyNg.GvsThi.EttVS_CSQBSFsQhiAALTiqhGELWlRQQH4dRFWo'
-bot = commands.Bot(command_prefix='', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 client = discord.Client()
 @bot.event
 async def on_message(message):
